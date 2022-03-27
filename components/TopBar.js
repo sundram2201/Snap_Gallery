@@ -12,7 +12,7 @@ const TopBar = (props) => {
         type="text"
         onChange={(e) => setSearchItem(e.target.value)}
         className="block"
-        placeholder="Mountains, Birds, Animals etc... "
+        placeholder="Select your category E.g. Mountains, Birds, Animals etc..."
       />
       {Data.filter((val) => {
         if (searchItem == "") {
