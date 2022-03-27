@@ -1,0 +1,26 @@
+.imgBox {
+  display: inline-block;
+}
+.img {
+  display: inline-block;
+  margin: 4px;
+  transition: transform 0.3s;
+}
+.img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s;
+}
+.navBtn {
+  margin: 30px 0;
+  text-align: center;
+}
+.navBtn button {
+  margin: 0px 5px;
+}
+
+.myDiv {
+  text-align: center;
+}
+.srch {
+  margin: 0 auto;
+}
